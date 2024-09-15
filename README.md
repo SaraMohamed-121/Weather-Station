@@ -35,15 +35,4 @@ This project demonstrates a weather monitoring system using the ESP32 microcontr
 - **Configure Thresholds**: Enter custom thresholds for temperature, humidity, pressure, and altitude. If the measured value exceeds any threshold, an email notification is sent.
 - **Enable/Disable Email Notifications**: Enable or disable email notifications by checking/unchecking the option in the web form.
 
-## Email Notification
-
-The system will send an alert email to the configured recipient when any of the sensor readings exceed the set thresholds. The email contains the current value of the sensor that triggered the alert.
-
-## Customization
-
-You can customize the project by:
-- Adding more sensors (e.g., air quality sensors).
-- Extending the web interface to include additional data.
-- Using other email servers for notifications.
-
 
